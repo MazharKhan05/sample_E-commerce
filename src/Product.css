@@ -2,12 +2,13 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* background-color: aqua; */
-	margin: 20px;
-	/* border-bottom: 1px solid lightgray; */
+	margin-bottom: 20px;
+	padding: 10px;
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 30px;
 }
 .product__head {
-	font-size: 2rem;
+	font-size: 1.7rem;
 	font-weight: 600;
 }
 .product__img {
@@ -17,9 +18,11 @@
 	align-items: center;
 	position: relative;
 	border-radius: 7px;
+}
+.product__img img {
 	object-fit: contain;
-	max-width: 200px;
-	max-height: 160px !important;
+	max-width: 160px !important;
+	max-height: auto !important;
 }
 .product__price {
 	font-size: 1.2rem;

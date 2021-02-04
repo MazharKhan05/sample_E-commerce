@@ -1,27 +1,4 @@
-.products__head {
-	background-color: #00b300;
-	color: white;
-	margin-left: 0px !important;
-	margin-right: 0px !important;
-	padding: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-.products__headContents {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-.products__menu {
-	font-size: xx-large;
-	font-weight: 700;
-}
-
-.products__search {
-	border: none;
-	border-radius: 7px;
-	padding-left: 5px;
-	padding-top: 7px;
-	padding-bottom: 7px;
+.products {
+	padding-top: 20px;
+	margin-top: 30px;
 }

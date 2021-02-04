@@ -10,7 +10,7 @@ function Product({ item }) {
 				<p>{item.Characteristics}</p>
 			</div>
 			<div className="product__img">
-				<img src={item.img} className="product__img" />
+				<img src={item.img} className="product__img" alt="product-img" />
 				<button className="product__btn">ADD </button>
 			</div>
 		</div>

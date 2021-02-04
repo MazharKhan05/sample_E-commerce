@@ -1,4 +1,69 @@
 .app {
-	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	min-width: 100vw;
+}
+
+.app__head {
+	height: 80px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 1;
 	width: 100vw;
+	background-color: #00b300;
+	color: white;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.app__headContents {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.app__menu {
+	margin-left: 5px;
+	font-size: xx-large;
+	font-weight: 700;
+}
+
+.app__search {
+	max-width: 140px !important;
+	border: none;
+	border-radius: 7px;
+	padding-left: 5px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.app__toggle {
+	display: flex;
+	max-width: 140px !important;
+	width: 100%;
+	justify-content: space-between;
+}
+.app__toggle label {
+	font-weight: 500;
+}
+.app__utilities {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	height: 120px;
+	/* background-color: aqua; */
+	padding-left: 20px;
+	padding-top: 50px;
+	/* margin-top: 60px; */
+	border-bottom: 1px solid lightgray;
+}
+.app__dropdown {
+	display: flex;
+	border-radius: 5px !important;
+	padding-left: 5px;
+	margin-right: 20px;
 }

@@ -1,0 +1,25 @@
+.locate {
+	display: flex;
+	flex-direction: column;
+	/* background-color: aqua; */
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: 45px;
+	margin-top: 60px;
+	border-bottom: 1px solid lightgray;
+}
+.locate h3 {
+	font-size: 1.6rem;
+	font-weight: 650;
+}
+.locate p {
+	font-size: 1.1rem;
+	font-weight: 470;
+	color: grey;
+	margin-bottom: 2px;
+}
+.locate span {
+	font-size: 1.1rem;
+	font-weight: 470;
+	color: grey;
+}
