@@ -1,4 +1,16 @@
 .products {
+	/* background-color: beige; */
+	position: relative;
 	padding-top: 20px;
-	margin-top: 30px;
+	margin-top: 40px;
+}
+.products__mainCat {
+	position: absolute;
+	top: -35px;
+	padding-top: 0px;
+	padding: 10px;
+	margin-left: 15px;
+
+	font-size: 1.8rem;
+	font-weight: 700;
 }

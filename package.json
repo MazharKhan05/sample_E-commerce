@@ -11,10 +11,12 @@
     "antd": "^4.12.2",
     "bootstrap": "^4.6.0",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.4.3",
     "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-strap": "0.0.1",
-    "reactstrap": "^8.9.0"
+    "reactstrap": "^8.9.0",
+    "uniqid": "^5.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
