@@ -40,7 +40,7 @@ function Product({ item }) {
 	return (
 		<div className="product">
 			<div className="product__desc">
-				<h3 className="product__head"> {item.name}</h3>
+				<h4 className="product__head"> {item.name}</h4>
 				<span className="product__price"> ${item.price}</span>
 				<p>{item.Characteristics}</p>
 			</div>

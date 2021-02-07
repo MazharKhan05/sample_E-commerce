@@ -12,6 +12,9 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.app__head a {
+	text-decoration: none !important;
+}
 
 .app__headContents {
 	display: flex;
@@ -24,7 +27,7 @@
 	font-size: xx-large;
 	font-weight: 700;
 }
-.app__search {
+/* .app__search {
 	max-width: 140px !important;
 	border: none;
 	border-radius: 7px;
@@ -32,4 +35,22 @@
 	padding-left: 5px;
 	padding-top: 7px;
 	padding-bottom: 7px;
+} */
+.nav__locate {
+	display: flex;
+	flex-direction: column;
+	max-width: 230px;
+	/* background-color: beige; */
+	padding: 5px;
+}
+.nav__locate p {
+	font-size: 1.1rem;
+	font-weight: 500;
+	color: white;
+	margin-bottom: 2px;
+}
+.nav__locate span {
+	font-size: 0.8rem;
+	font-weight: 400;
+	color: white;
 }

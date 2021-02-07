@@ -1,0 +1,40 @@
+.app__utilities {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	height: 110px;
+	padding-left: 10px;
+	padding-top: 45px;
+	margin-top: 65px;
+	border-bottom: 1px solid lightgray;
+}
+.app__toggle {
+	display: flex;
+	max-width: 125px !important;
+	width: 100%;
+	padding-top: 5px;
+	justify-content: space-between;
+}
+.app__toggle label {
+	font-size: 0.9rem;
+	font-weight: 500;
+}
+
+.app__dropdown {
+	display: flex;
+	border-radius: 5px !important;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.app__utilities input {
+	max-width: 100px !important;
+	height: 37px;
+	border: 3px solid #ededed;
+	border-radius: 7px;
+	color: black;
+	padding-top: 7px;
+	padding-left: 5px;
+	margin-right: 12px;
+	padding-bottom: 7px;
+}

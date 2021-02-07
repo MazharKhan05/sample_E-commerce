@@ -2,15 +2,15 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* background-color: bisque; */
-	margin-bottom: 20px;
-	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
 	padding: 10px;
 	border-bottom: 1px solid lightgray;
-	padding-bottom: 30px;
+	padding-bottom: 20px;
+	/* background-color: aqua; */
 }
 .product__head {
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 	font-weight: 600;
 }
 .product__img {
@@ -23,17 +23,19 @@
 }
 .product__img img {
 	object-fit: contain;
-	max-width: 160px !important;
+	max-width: 130px !important;
 	max-height: auto !important;
 }
 .product__price {
-	font-size: 1.2rem;
+	font-size: 0.9rem;
+
 	color: grey;
 	font-weight: 500;
 }
 
 .product__desc p {
-	font-size: 1.2rem;
+	line-height: normal;
+	font-size: 0.8rem;
 	color: grey;
 }
 .product__btn {

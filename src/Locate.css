@@ -1,12 +1,11 @@
 .locate {
 	display: flex;
 	flex-direction: column;
-	/* background-color: aqua; */
 	padding: 20px;
 	padding-bottom: 10px;
-	padding-top: 45px;
-	margin-top: 60px;
-	border-bottom: 1px solid lightgray;
+	/* padding-top: 45px;
+	margin-top: 60px; */
+	/* border-bottom: 1px solid lightgray; */
 }
 .locate h3 {
 	font-size: 1.6rem;
